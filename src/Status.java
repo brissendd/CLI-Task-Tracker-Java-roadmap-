@@ -3,7 +3,7 @@ package src;
 import java.security.PublicKey;
 
 public enum Status {
-    TO_DO("Todo"), IN_PROGRESS("In progress"), DONE("Done");
+    TODO("Todo"), IN_PROGRESS("In progress"), DONE("Done");
 
     private final String value;
 

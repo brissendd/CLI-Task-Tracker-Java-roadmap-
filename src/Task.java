@@ -15,7 +15,7 @@ public class Task {
 
     public Task(String description) {
         this.id = ++lastId;
-        this.status = Status.TO_DO;
+        this.status = Status.TODO;
         this.description = description;
         this.createdAt = LocalDateTime.now();
         this.updatedAt = LocalDateTime.now();

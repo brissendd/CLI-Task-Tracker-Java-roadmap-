@@ -42,7 +42,7 @@ public class CLITaskTracker {
                 taskManager.markInProgress(args[1]);
                 System.out.printf("Task marked as in progress (ID: " + args[1] + ")");
                 break;
-            case "mark_done":
+            case "mark-done":
                 if (args.length < 2) {
                     System.out.println("Usage: CLITaskTracker mark-done <id>");
                     return;
